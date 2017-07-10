@@ -1,10 +1,11 @@
 h1{
   font-family:Verdana;
+  font-size: 40px;
+  margin: 10px;
 }
-header h1{
-  margin:0;
-  display: inline;
-  padding: 10px;
+
+nav {
+  text-align: right;
 }
 nav ul{
   margin:0;
@@ -14,10 +15,14 @@ nav ul{
 nav ul li{
   display: inline-block;
   list-style-type: none;
+  font-family:Verdana;
   margin: 5px 15px;
 }
 nav ul li a{
   color: black;
+}
+a{
+  color:black;
 }
 a:link{
   text-decoration:none;
@@ -35,4 +40,5 @@ a:link{
 .connect{
   text-align: center;
   margin:20px;
+  font-family:Verdana;
 }
