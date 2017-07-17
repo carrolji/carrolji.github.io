@@ -1,11 +1,15 @@
 h1{
-  font-family:Verdana;
-  font-size: 40px;
+  font-family:"Unica One";
+  font-size: 50px;
   margin: 10px;
+  padding-left: 20px;
+  color: white;
+  background-color: lightblue;
 }
 
 nav {
   text-align: right;
+  background-color: "#F0C4F0";
 }
 nav ul{
   margin:0;
@@ -15,7 +19,8 @@ nav ul{
 nav ul li{
   display: inline-block;
   list-style-type: none;
-  font-family:Verdana;
+  font-family:"La Belle Aurore";
+  font-size:22px;
   margin: 5px 15px;
 }
 nav ul li a{
@@ -26,6 +31,11 @@ a{
 }
 a:link{
   text-decoration:none;
+}
+p{
+  font-family:"Abel";
+  font-size: 22px;
+  margin: 20px;
 }
 
 .center{
@@ -40,5 +50,5 @@ a:link{
 .connect{
   text-align: center;
   margin:20px;
-  font-family:Verdana;
+  font-family: Open Sans;
 }
