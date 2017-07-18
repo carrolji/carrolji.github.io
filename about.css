@@ -1,7 +1,11 @@
+.main{
+  display: inline-block;
+  margin: 0 auto;
+}
 h1{
   font-family:"Unica One";
   font-size: 60px;
-  padding: 20px 0px 5px 50px;
+  padding: 20px 0px 0px 50px;
   margin: 0;
 }
 nav {
