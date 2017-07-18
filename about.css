@@ -1,16 +1,18 @@
 h1{
   font-family:"Unica One";
-  font-size: 50px;
+  font-size: 60px;
   margin: 20px 0px 5px 50px;
 }
 nav {
   text-align: right;
-  margin:0px 50px 30px 50px;
+  margin:0px;
   background-color: #b3ffd9;
 }
 nav ul{
   display: inline;
 }
+
+body{ margin: 0; }
 
 nav ul li{
   display: inline-block;
@@ -28,10 +30,8 @@ a{
 a:link{
   text-decoration:none;
 }
-
-.intro{
-  text-align: center;
-  font-size: 30px;
+a:hover{
+  color:orange;
 }
 
 .about_me{
@@ -50,24 +50,15 @@ p{
     display: table-cell;
     vertical-align: middle }
 
-.landscape {
+.imgContainer {
+  overflow: hidden;
+  width: 1350px;
   height: 650px;
-  width: 1250px;
-  margin-left: 50px;
 }
-
-.connect{
-  text-align: center;
-  padding: 100px;
-  margin:100px 50px 10px 50px;
-  font-family: "Unica One";
-  font-size: 50px;
-  background-color: lightblue;
-}
-
-.icon{
-  width: 150px;
-  height: 150px;
-  display: block;
-  margin: 0 auto;
+.imgContainer img {
+  width: 1400px;
+  height: 900px;
+  position = absolute;
+  top =0;
+  left=0;
 }

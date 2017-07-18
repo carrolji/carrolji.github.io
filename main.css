@@ -53,7 +53,7 @@ p{
   z-index: 100;
   position: absolute;
   font-size: 35px;
-  left: 150px;
+  left: 100px;
   top: 600px;
   color: white;
   font-family:"Abel";
@@ -72,6 +72,9 @@ p{
 }
 
 .connect{
+  margin: 50px 0;
+}
+.connect p{
   text-align: center;
   margin:100px 0px 10px 0px;
   font-family: "Unica One";
@@ -83,4 +86,12 @@ p{
   height: 150px;
   display: block;
   margin: 0 auto;
+}
+
+.changeImgOnHover{
+  background: url('icons/GitHub-Mark.png!') no-repeat;
+}
+
+.changeImgOnHover:hover img {
+    opacity: 0.7;
 }
