@@ -17,10 +17,22 @@
       <ul>
         <li><a href="aboutme.html">About me</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="#">My Passion</a></li>
+        <li><a href="passion.html">My Passion</a></li>
       </ul>
     </nav>
   </header>
+
+  <script>
+      var i = 0;
+      function buttonClick() {
+          i++;
+          document.getElementById('inc').value = i;
+      }
+  </script>
+  <button onclick="buttonClick()">
+    <img src="icons/like.png"/>
+  </button>
+  <input type="text" id="inc" value="0"></input>
 </body>
 
 </html>
