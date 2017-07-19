@@ -17,9 +17,7 @@ nav ul{
   display: inline;
 }
 
-body{ padding: 0;
-margin: 0;
-height: 100%; }
+body{ margin: 0;}
 
 nav ul li{
   display: inline-block;
@@ -67,6 +65,7 @@ p{
   text-align: center;
   padding:50px;
   margin: 0 auto;
+  height: 70%;
   background-color: #FC913A;
 }
 .connect p{
