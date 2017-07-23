@@ -62,13 +62,18 @@ p{
   display: block; /*remove white space */
 }
 #text1{
-  position: absolute;
-  left: 150px;
-  top: 200px;
-  width: 100%
+  padding: 300px;
+  text-align: center;
+  background-color: red;
+  margin: 0px;
+  background-image: url("images/beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /*make the image moves */
+  background-position: 50% 20%;
 }
 #text2{
-  padding: 300px;
+  padding: 280px;
   text-align: center;
   background-color: red;
   margin: 0px;
@@ -78,10 +83,43 @@ p{
   background-attachment: fixed; /*make the image moves */
   background-position: 50% 20%;
 }
-
 #text3{
+  padding: 280px;
+  text-align: center;
+  background-color: red;
+  margin: 0px;
+  background-image: url("images/edmonton2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /*make the image moves */
+  background-position: 50% 20%;
+}
+#text5{
+  padding: 270px;
+  text-align: center;
+  background-color: red;
+  margin: 0px;
+  background-image: url("images/uofa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /*make the image moves */
+  background-position: 50% 20%;
+}
+#text4{
   position: absolute;
-  left: 500px;
-  top: 1500px;
+  left: 800px;
+  top: 1670px;
   width: 100%;
+  font-family: "Abel";
+  font-size:25px;
+  color:white;
+}
+
+small{
+  font-size: 25px;
+  margin: 0px;
+}
+
+.origin br{
+  line-height: 2px;
 }
