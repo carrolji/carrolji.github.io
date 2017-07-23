@@ -118,6 +118,8 @@ p{
 small{
   font-size: 25px;
   margin: 0px;
+  display: block;
+  width: 800px;
 }
 
 .origin br{
