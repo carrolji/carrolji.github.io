@@ -47,7 +47,7 @@ p{
 #intro{
   z-index: 100;
   position: absolute;
-  font-size: 35px;
+  font-size: 45px;
   left: 100px;
   top: 600px;
   color: white;
@@ -81,7 +81,6 @@ p{
     display: inline;
     list-style-type: none;
 }
-
 .icon{
   width: 150px;
   height: 150px;
@@ -93,4 +92,14 @@ p{
 }
 .changeImgOnHover:hover img {
     opacity: 0.7;
+}
+img.center{
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#description{
+  text-align: center;
+  font-size:25px;
 }
