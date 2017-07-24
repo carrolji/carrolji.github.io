@@ -1,21 +1,21 @@
-.main{
-  display: inline-block;
-  margin: 0 auto;
+header{
+  /*position:fixed;
+  z-index: 100;*/
+  padding-top: 10px;
 }
 h1{
-  font-family:"Dawning of a New Day";
+  font-family:"Reenie Beanie";
   font-size: 60px;
-  padding: 0px 0px 5px 50px;
-  margin: 0;
+  padding-left:50px;
+  display: inline;
 
 }
-nav {
-  text-align: right;
-  margin:0px;
-  background-color: #b3ffd9;
+.headbg{
+  background-color: #FFD3B5;
 }
 nav ul{
   display: inline;
+  margin: 0;
 }
 
 body{ margin: 0;}
@@ -25,7 +25,7 @@ nav ul li{
   list-style-type: none;
   font-family:"Unica One";
   font-size:30px;
-  margin: 5px 30px;
+  margin: 20px 60px;
 }
 nav ul li a{
   color: black;
@@ -37,7 +37,7 @@ a:link{
   text-decoration:none;
 }
 a:hover{
-  color:orange;
+  color: orange;
 }
 
 p{
