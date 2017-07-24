@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 h1{
-  font-family:"Unica One";
+  font-family:"Reenie Beanie";
   font-size: 60px;
   padding: 20px 0px 0px 50px;
   margin: 0;
@@ -62,7 +62,7 @@ p{
   display: block; /*remove white space */
 }
 #text1{
-  padding: 300px;
+  padding: 310px;
   text-align: center;
   background-color: red;
   margin: 0px;
@@ -73,7 +73,7 @@ p{
   background-position: 50% 20%;
 }
 #text2{
-  padding: 280px;
+  padding: 300px;
   text-align: center;
   background-color: red;
   margin: 0px;
@@ -84,7 +84,7 @@ p{
   background-position: 50% 20%;
 }
 #text3{
-  padding: 280px;
+  padding: 300px;
   text-align: center;
   background-color: red;
   margin: 0px;
