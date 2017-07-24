@@ -63,7 +63,7 @@ p{
   display: block; /*remove white space */
 }
 #text1{
-  padding: 310px;
+  padding: 300px;
   text-align: center;
   margin: 0px;
   background-image: url("images/beach.jpg");
@@ -81,7 +81,7 @@ p{
   background-repeat: no-repeat;
   background-size: 220px 150px;
   background-attachment: fixed; /*make the image moves */
-  background-position: 50% 20%;
+  background-position: 50% 30%;
 }
 #text3{
   padding: 300px;
@@ -94,7 +94,7 @@ p{
   background-position: 50% 20%;
 }
 #text5{
-  padding: 270px;
+  padding: 280px;
   text-align: center;
   margin: 0px;
   background-image: url("images/uofa.jpg");
