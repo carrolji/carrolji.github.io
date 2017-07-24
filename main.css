@@ -2,6 +2,7 @@ header{
   /*position:fixed;
   z-index: 100;*/
   padding-top: 10px;
+  background-color: white;
 }
 h1{
   font-family:"Reenie Beanie";
@@ -18,7 +19,8 @@ nav ul{
   margin: 0;
 }
 
-body{ margin: 0;}
+body{ margin: 0;
+background-color: #FAFAFA;}
 
 nav ul li{
   display: inline-block;

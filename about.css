@@ -65,7 +65,6 @@ p{
 #text1{
   padding: 310px;
   text-align: center;
-  background-color: red;
   margin: 0px;
   background-image: url("images/beach.jpg");
   background-repeat: no-repeat;
@@ -87,7 +86,6 @@ p{
 #text3{
   padding: 300px;
   text-align: center;
-  background-color: red;
   margin: 0px;
   background-image: url("images/edmonton2.jpg");
   background-repeat: no-repeat;
@@ -98,7 +96,6 @@ p{
 #text5{
   padding: 270px;
   text-align: center;
-  background-color: red;
   margin: 0px;
   background-image: url("images/uofa.jpg");
   background-repeat: no-repeat;
