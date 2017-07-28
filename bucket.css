@@ -1,8 +1,16 @@
 body{ margin: 0;
 background-color: #FAFAFA;
 }
+* {
+    box-sizing: border-box;
+}
+h2{
+  font-family:"Reenie Beanie";
+  font-size:45px;
+  text-align: center;
+}
 ul{
-  display: inline;
+  display: grid | inline-grid;
   margin: 0;
 }
 ul li{
@@ -11,4 +19,12 @@ ul li{
   font-family:"Reenie Beanie";
   font-size:30px;
   margin: 20px 60px;
+}
+
+.col-1{ width: 25%;
+float:left;}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
