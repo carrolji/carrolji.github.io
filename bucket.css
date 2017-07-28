@@ -1,0 +1,14 @@
+body{ margin: 0;
+background-color: #FAFAFA;
+}
+ul{
+  display: inline;
+  margin: 0;
+}
+ul li{
+  display: inline-block;
+  list-style-type: none;
+  font-family:"Reenie Beanie";
+  font-size:30px;
+  margin: 20px 60px;
+}
