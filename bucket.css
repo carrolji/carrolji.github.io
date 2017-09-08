@@ -14,7 +14,8 @@ p{
   font-family:"Reenie Beanie";
   font-size:30px;
   color:white;
-  margin-left: 30px;
+  margin-left: 25%;
+  margin-top: 25%;
 }
 
 [class*='col-'] {
@@ -24,11 +25,13 @@ p{
   background-position: center;
   height:300px;
   width: 33.33%;
+  position:relative;
 
 }
 
-[class*='col-']:hover{
-  opacity: 0.5;
+[class*='col-']:hover .overlay{
+  opacity: 0.7;
+  background-color: black;
 }
 
 .col-1-1 {
@@ -79,4 +82,27 @@ p{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.text {
+  color: white;
+  font-size:30px;
+  position: absolute;
+  font-family:"Reenie Beanie";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
 }
