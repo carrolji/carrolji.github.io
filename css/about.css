@@ -26,7 +26,7 @@ p{
   padding: 300px;
   text-align: center;
   margin: 0px;
-  background-image: url("images/beach.jpg");
+  background-image: url("../images/beach.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; /*make the image moves */
@@ -37,7 +37,7 @@ p{
   text-align: center;
   background-color: red;
   margin: 0px;
-  background-image: url("icons/maple_leaf.jpg");
+  background-image: url("../icons/maple_leaf.jpg");
   background-repeat: no-repeat;
   background-size: 220px 150px;
   background-attachment: fixed; /*make the image moves */
@@ -47,7 +47,7 @@ p{
   padding: 300px;
   text-align: center;
   margin: 0px;
-  background-image: url("images/edmonton2.jpg");
+  background-image: url("../images/edmonton2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; /*make the image moves */
@@ -57,7 +57,7 @@ p{
   padding: 300px;
   text-align: center;
   margin: 0px;
-  background-image: url("images/uofa.jpg");
+  background-image: url("../images/uofa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; /*make the image moves */
