@@ -1,0 +1,15 @@
+{% for post in bucket_checked %}
+    <div>
+        <h2><a href="">{{ post.to_do}}</a></h2>
+        <p>{{ post.description }}</p>
+        <p>{{ post.location }}</p>
+    </div>
+{% endfor %}
+
+{% for post in bucket_unchecked %}
+    <div>
+        <h2><a href="">{{ post.to_do}}</a></h2>
+        <p>{{ post.description }}</p>
+        <p>{{ post.location }}</p>
+    </div>  
+{% endfor %}
