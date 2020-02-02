@@ -6,8 +6,10 @@ header{
 }
 h1{
   font-family:"Reenie Beanie";
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: 3.5vw;
   padding-left:50px;
+  /* padding-left:1vw; */
   display: inline;
 
 }
@@ -26,8 +28,10 @@ nav ul li{
   display: inline-block;
   list-style-type: none;
   font-family:"Unica One";
-  font-size:30px;
-  margin: 20px 60px;
+  /* font-size:30px; */
+  font-size:1.8vw;
+  /* margin: 20px 60px; */
+  margin: 1.1vw 3.5vw; /*top+bottom, right+left*/
 }
 nav ul li a{
   color: black;
@@ -66,13 +70,17 @@ p{
 
 .connect{
   text-align: center;
+  display: block;
   padding:50px;
+  flex: 0;
+  height: 100%;
   margin: 0 auto;
   background-color: #FC913A;
 }
-.connect p{
+
+#connectp{
   text-align: center;
-  margin:0px 0px 10px 0px;
+  /* margin:0px 0px 10px 0px; */
   font-family: "Unica One";
   font-size: 50px;
 }
@@ -87,11 +95,6 @@ p{
 .icon{
   width: 150px;
   height: 150px;
-}
-.icon_email{
-  width: 120px;
-  height: 120px;
-  margin-bottom: 10px;
 }
 .changeImgOnHover:hover img {
     opacity: 0.7;
