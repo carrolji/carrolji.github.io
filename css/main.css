@@ -5,7 +5,7 @@ header {
 
 h1 {
     font-family: "Reenie Beanie";
-    font-size: 4.5vw;
+    font-size: 4vw;
     padding-left: 5vw;
     display: inline;
 }
@@ -55,7 +55,7 @@ p {
 #intro {
     z-index: 100;
     position: absolute;
-    font-size: 4vw;
+    font-size: 3.5vw;
     left: 5vw;
     top: 35vw;
     color: white;
@@ -82,7 +82,7 @@ p {
 #connectp {
     text-align: center;
     font-family: "Unica One";
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .connect ul {
