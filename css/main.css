@@ -71,11 +71,10 @@ p {
 
 .connect {
     text-align: center;
-    display: block;
-    padding: 50px;
+    flex-flow: column;
+    display: flex;
     flex: 0;
     height: 100%;
-    margin: 0 auto;
     background-color: #FC913A;
 }
 
@@ -95,8 +94,8 @@ p {
 }
 
 .icon {
-    width: 15vw;
-    height: 15vw;
+    width: 8vw;
+    height: 8vw;
 }
 
 .changeImgOnHover:hover img {
