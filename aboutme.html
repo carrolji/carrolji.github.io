@@ -29,7 +29,8 @@
         <p id="text1">Thailand <br />
             <small>I was born in Thailand and spent most of my childhood there.</small> </p>
         <p id="text2">Canada<br />
-            <small> Landed in Canada, 2006. So, 14 years and counting!</small></p>
+            <small> Landed in Canada, 2006. So, <small id="year"></small> years and counting!</small>
+        </p>
         <p id="text3">Vancouver - Edmonton<br />
             <small> I lived in Vancouver but decided to move away from home to
         gain new experience in a cold city, Edmonton.</small>
@@ -37,6 +38,13 @@
                 <small>Graduated from the University of Alberta,
           with BSc. Specialization in Computing Science degree.</small></p>
     </div>
+
+    <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        var years_in_canada = n - 2006
+        document.getElementById("year").innerHTML = years_in_canada;
+    </script>
 </body>
 
 </html>
